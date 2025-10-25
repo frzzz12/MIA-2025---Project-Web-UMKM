@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--text);
+}
+
+:root {
+    --text:'Poppins', sans-serif;
+    --accent-color: #49b5e7;
+    --bg-primary: #ffffff;
+}
+
+
+/* Navbar Start */
+.navbar {
+    background-color:var(--bg-primary);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+
+.navbar h2, a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.navbar .navbar-h2 {
+    margin-left: 2rem;
+}
+
+.navbar .navbar-a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    letter-spacing: 1.3px;
+}
+
+.navbar a {
+    font-weight: 600;
+}
+
+.navbar .navbar-search {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.navbar .navbar-search input {
+    border-radius: 6px;
+    border: 0.5px solid black;
+}
+/* Navbar Start End */
+
+
+/* Content-1 */
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.content-1{
+    width: 80%;
+    background-color: var(--accent-color);
+    height: 250px;
+    background-image: url('https://images.bisnis.com/posts/2022/10/28/1592521/umkm.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.content-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* warna overlay hitam transparan */
+    z-index: 1;
+    border-radius: 30px;
+}
+
+
+/* Content-1 End */
+
+/* Content-2 */
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.primary-card {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.primary-card .sec-card {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 20px;
+}
+
+.primary-card .sec-card .card {
+    border-radius: 8px;
+    display: flex;
+    background-color: aqua;
+    gap: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.container-card .primary-card .sec-card .card img {
+    width: 100px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.container-card .primary-card .sec-card .card .card-btn button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 100px;
+}
+
+
+
+
+
+
+/* Content-2 End */
+
