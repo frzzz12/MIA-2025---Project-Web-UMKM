@@ -1,3 +1,42 @@
+<?php 
+
+include 'function.php';
+
+$hub = mysqli_connect('localhost', 'root', 'Frozzyt123', 'mia');
+
+$data1 = mysqli_query($hub, 'SELECT * FROM umkm WHERE id=1');
+$data2 = mysqli_query($hub, 'SELECT * FROM umkm WHERE id=2');
+$data3 = mysqli_query($hub, 'SELECT * FROM umkm WHERE id=3');
+$data4 = mysqli_query($hub, 'SELECT * FROM umkm WHERE id=4');
+$data5 = mysqli_query($hub, 'SELECT * FROM umkm WHERE id=5');
+$data6 = mysqli_query($hub, 'SELECT * FROM umkm WHERE id=6');
+$data7 = mysqli_query($hub, 'SELECT * FROM umkm WHERE id=7');
+$data8 = mysqli_query($hub, 'SELECT * FROM umkm WHERE id=8');
+$data9 = mysqli_query($hub, 'SELECT * FROM umkm WHERE id=9');
+$data10 = mysqli_query($hub, 'SELECT * FROM umkm WHERE id=10');
+
+$umkm1 = mysqli_fetch_row($data1);
+$umkm2 = mysqli_fetch_row($data2);
+$umkm3 = mysqli_fetch_row($data3);
+$umkm4 = mysqli_fetch_row($data4);
+$umkm5 = mysqli_fetch_row($data5);
+$umkm6 = mysqli_fetch_row($data6);
+$umkm7 = mysqli_fetch_row($data7);
+$umkm8 = mysqli_fetch_row($data8);
+$umkm9 = mysqli_fetch_row($data9);
+$umkm10 = mysqli_fetch_row($data10);
+
+
+if(isset($_POST['search'])) {
+    $query = cari($_POST['cari']);
+};
+
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,8 +57,8 @@
                 <a href="">UMKM</a>
             </div>
             <div class="navbar-search">
-                <input type="search" placeholder="Search">
-                <button>tombol</button>
+                <input type="search" placeholder="Search" name="cari">
+                <button type="submit" name="search">tombol</button>
             </div>
         </div>
     </nav>
@@ -44,7 +83,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Cozy Drink</h3>
+                                    <h3><?= $umkm1[1]?></h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -60,7 +99,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Bakso Daeng Lalang</h3>
+                                    <h3><?= $umkm6[1]?></h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -77,7 +116,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Mocin</h3>
+                                    <h3><?= $umkm3[1]?></h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -93,7 +132,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Komau Juice</h3>
+                                    <h3><?= $umkm8[1]?></h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -109,7 +148,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Nasi Goreng Skripsi</h3>
+                                    <h3><?= $umkm5[1]?></h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -125,7 +164,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Oishi Banana</h3>
+                                    <h3><?= $umkm4[1]?></h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -141,7 +180,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Kebab Turkiyem</h3>
+                                    <h3><?= $umkm9[1]?></h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -157,7 +196,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Skripsi Service</h3>
+                                    <h3><?= $umkm7[1]?></h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -173,7 +212,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Teras Ryker</h3>
+                                    <h3><?= $umkm2[1]?></h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -189,7 +228,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>WR Pangkep Rannu</h3>
+                                    <h3><?= $umkm10[1]?></h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">

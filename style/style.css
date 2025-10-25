@@ -11,6 +11,7 @@
     --text:'Poppins', sans-serif;
     --accent-color: #49b5e7;
     --bg-primary: #ffffff;
+    --bg-card: #989898;
 }
 
 
@@ -114,7 +115,7 @@
 .primary-card .sec-card .card {
     border-radius: 8px;
     display: flex;
-    background-color: aqua;
+    background-color: var(--bg-card);
     gap: 10px;
     padding: 20px;
     color: white;
