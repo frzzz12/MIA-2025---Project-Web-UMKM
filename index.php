@@ -32,7 +32,7 @@
         </div>
      </section>
     <!-- Content 1 End -->
-     
+
     <!-- Content 2 -->
      <section class="cards container">
         <div class="card">
@@ -72,7 +72,7 @@
             <div class="card-body">
                 <h3>Cozy drink</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                <a class="btn" href="cozydrink.html">Kunjungi</a>
+                <a class="btn" href="pages/cozydrink.html">Kunjungi</a>
             </div>
         </div>
      </section>
