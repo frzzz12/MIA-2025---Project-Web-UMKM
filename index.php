@@ -18,7 +18,7 @@
                 <a href="">UMKM</a>
             </div>
             <div class="navbar-search">
-                <input type="search">
+                <input type="search" placeholder="Search">
                 <button>tombol</button>
             </div>
         </div>
