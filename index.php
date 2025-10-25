@@ -42,5 +42,9 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.104831600836!2d122.51548477407805!3d-3.9988658959748693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d988d84078d0c6d%3A0x5744530ede029ab1!2sMocin%20Indonesia!5e0!3m2!1sid!2sid!4v1760858075037!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <!-- Mocin -->
 
+     <!-- Warung Pangkep RANNU SOP SAUDARA -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.123456789012!2d122.58558!3d-3.999805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwNTknNTkuMyJTIDEyMsKwMzUnMDguMSJF!5e0!3m2!1sid!2sid!4v1234567890" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- Warung Pangkep RANNU SOP SAUDARA -->
+
 </body>
 </html>
