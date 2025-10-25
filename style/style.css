@@ -146,3 +146,16 @@
 
 /* Content-2 End */
 
+/* Map Embed */
+.map-embed {
+    width: min(1200px, 95%);
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+.map-embed iframe {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-radius: 12px;
+}

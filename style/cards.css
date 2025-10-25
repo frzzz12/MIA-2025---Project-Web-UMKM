@@ -12,6 +12,67 @@
   --thumb-ratio: 3 / 1;
 }
 
+.map iframe{
+    display: flex;
+    align-items: stretch;
+    background-position: center;
+}
+
+.card-toko{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 12px;
+    gap: 16px;
+    height: 250px;
+    background-position: center;
+    background: #49b5e7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-toko img{
+    width: clamp(200px, 40%, 380px);
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.toko-body{
+    display:flex; 
+    flex-direction:column;
+    flex: 1 1 auto;
+    min-width: 0;
+    justify-content: center;
+    gap:.4rem;
+    padding:12px 14px;
+}
+
+.toko-body h3{
+    font-size:clamp(1rem, 1.5vw, 1.1rem);
+    margin:0 0 .25rem 0;
+}
+.toko-body p{
+    margin:0;
+    opacity:.95;
+    font-size:clamp(.8rem, 1.0vw, .98rem);
+}
+
+/* Match button style used in grid cards */
+.card-toko .btn{
+    margin-top:.5rem;
+    width: fit-content;
+    text-align: center;
+    background:var(--accent-color);
+    border:0;
+    border-radius:10px;
+    padding:.5rem .8rem;
+    font-weight:600;
+    color:#fff;
+    cursor:pointer;
+}
 /* ---------- Cards Grid ---------- */
 .container{
     width:min(1200px, 90%);
@@ -73,4 +134,13 @@
 /* ---------- Utilities / Tweaks ---------- */
 @media (max-width: 640px){
   .nav-links{ display:none; }
+  .card-toko{
+    flex-direction: column;
+    gap: 0;
+    height: auto;
+  }
+  .card-toko img{
+    width: 100%;
+    height: auto;
+  }
 }
