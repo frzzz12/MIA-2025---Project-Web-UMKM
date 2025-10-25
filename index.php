@@ -56,11 +56,11 @@
                         </div>
                         <div class="card">
                             <div>
-                                <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+                                <img src="assets/bakso khas makassar daeng lalang/bakso komplit.png" alt="umkm1">
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Cozy Drink</h3>
+                                    <h3>Bakso Daeng Lalang</h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
