@@ -76,7 +76,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Cozy Drink</h3>
+                                    <h3>Mocin</h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -88,11 +88,11 @@
                         </div>
                         <div class="card">
                             <div>
-                                <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+                                <img src="assets/komau juice/alpukat kocok dancow.png" alt="umkm1">
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Cozy Drink</h3>
+                                    <h3>Komau Juice</h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -104,11 +104,11 @@
                         </div>
                         <div class="card">
                             <div>
-                                <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+                                <img src="assets/nasi goreng skripsi/nasi goreng kari + katsu.jpeg" alt="umkm1">
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Cozy Drink</h3>
+                                    <h3>Nasi Goreng Skripsi</h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -124,7 +124,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Cozy Drink</h3>
+                                    <h3>Oishi Banana</h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -140,7 +140,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Cozy Drink</h3>
+                                    <h3>Raisha Craft</h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -156,7 +156,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Cozy Drink</h3>
+                                    <h3>Skripsi Service</h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -172,7 +172,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Cozy Drink</h3>
+                                    <h3>Teras Ryker</h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -188,7 +188,7 @@
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Cozy Drink</h3>
+                                    <h3>WR Pangkep Rannu</h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
