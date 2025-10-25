@@ -1,0 +1,19 @@
+Drinks
+tr1 = Buy 2 Get 1 Free 	= Rp25.000
+tr2 = Taro		= Rp16.000
+tr3 = Cappuccino	= Rp16.000
+tr4 = Red Velvet	= Rp16.000
+tr5 = Chocolate		= Rp16.000
+tr6 = Matcha/Green	= Rp16.000
+
+Fried Dim Sum
+tr7  = Fried Chicken Cheese Dim Sum	= Rp26.000
+tr8  = Frozen Cheese Dim Sum		= Rp30.000
+tr9  = Original Frozen Dim Sum		= Rp26.000
+tr10 = Original Chicken Fried Dim Sum	= Rp20.000
+
+Fried Chicken Rice
+tr11 = Fried Chicken Rice With Sweet Garlic	= Rp20.000
+tr12 = Fried Chicken Rice With Cheese		= Rp20.000
+tr13 = BBQ Chicken Rice Dish			= Rp20.000
+tr14 = Spicy Fried Chicken Dish			= Rp20.000
