@@ -7,12 +7,15 @@
     font-family: var(--text);
 }
 
-:root {
-    --text:'Poppins', sans-serif;
-    --accent-color: #49b5e7;
-    --bg-primary: #ffffff;
+:root{
+  --text:'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --accent-color:#49b5e7;
+  --bg-primary:#fff;
+  --bg-muted:#fafafa;
+  --card-bg:#0ea5e9; /* tweak as needed */
+  --radius:14px;
+  --shadow:0 10px 25px rgba(0,0,0,.08);
 }
-
 
 /* Navbar Start */
 .navbar {
@@ -91,57 +94,50 @@
 
 /* Content-1 End */
 
-/* Content-2 */
-
-.container-card {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+/* ---------- Cards Grid ---------- */
+.container{
+    width:min(900px, 90%);
+    margin-inline:auto;
 }
 
-.primary-card {
-    display: flex;
-    width: 50%;
-    justify-content: center;
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+    gap:20px;
+    margin:40px auto 60px;
+    justify-items: center;
 }
 
-.primary-card .sec-card {
-    display: grid;
-    grid-template-columns: 400px 400px;
-    gap: 20px;
+.card{
+    width: 100%;
+    max-width: 400px;
+    border-radius:var(--radius);
+    overflow:hidden;
+    background:var(--card-bg);
+    color:#fff;
+    box-shadow:var(--shadow);
+}
+.card img{
+    width:100%;
+    height: 250px;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 8px 8px 0 0;
+    display:block;
+}
+.card-body{
+  display:flex; flex-direction:column; gap:.5rem;
+  padding:16px;
+}
+.card h3{ font-size:1.05rem; line-height:1.25; margin:0; }
+.card p{ margin:0; opacity:.95; }
+.btn{
+  align-self:flex-start; margin-top:.25rem;
+  background:var(--accent-color); color:#fff; border:0; border-radius:10px;
+  padding:.55rem .9rem; font-weight:600; cursor:pointer;
 }
 
-.primary-card .sec-card .card {
-    border-radius: 8px;
-    display: flex;
-    background-color: aqua;
-    gap: 10px;
-    padding: 20px;
-    color: white;
+/* ---------- Utilities / Tweaks ---------- */
+@media (max-width: 640px){
+  .nav-links{ display:none; }
 }
-
-.container-card .primary-card .sec-card .card img {
-    width: 100px;
-    height: 120px;
-    border-radius: 5px;
-}
-
-.container-card .primary-card .sec-card .card .card-btn button {
-    background-color: var(--accent-color);
-    color: white;
-    border: none;
-    border-radius: 7px;
-    padding: 8px;
-    cursor: pointer;
-    font-weight: 600;
-    margin-top: 10px;
-    width: 100px;
-}
-
-
-
-
-
-
-/* Content-2 End */
-
