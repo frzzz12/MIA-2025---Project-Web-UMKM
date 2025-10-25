@@ -1,0 +1,68 @@
+Makanan
+wr1  = Konro Makassar = Rp47.000
+wr2  = PAKET Sop Saudara dan Nasi Putih = Rp39.000
+wr3  = Konro Bakar + Kuah = Rp53.500
+wr4  = Sop Ubi = Rp26.000
+wr5  = Nasi Putih = Rp7.800
+wr6  = Sop Saudara = Rp35.000
+wr7  = Indomie Goreng Telur Ceplok = Rp20.000
+wr8  = PAKET Konro Makassar dan Nasi Putih = Rp52.000
+wr9  = PAKET Konro Bakar, Kuah + Nasi = Rp58.500
+wr10 = Sop Paru = Rp37.250
+wr11 = PAKET Sop Paru Goreng + Nasi = Rp41.600
+wr12 = Sop Kikil = Rp46.000
+wr13 = Nasi Goreng Telur Mata Sapi = Rp21.000
+wr14 = Nasi Goreng Sapi Cincang	= Rp35.000
+wr15 = Nasi Goreng + Paru Goreng = Rp37.800
+wr16 = Ikan Bolu Goreng = Rp39.000
+wr17 = Ayam Goreng + Nasi = Rp39.000
+wr18 = Ikan Goreng Bolu = Rp35.000
+wr19 = Ayam Goreng = Rp35.000
+
+Sambal
+wr20 = Sambal Paru Goreng = Rp35.500
+wr21 = Sambal Goreng Baby Cumi = Rp35.500
+
+Minuman
+wr22 = Es Teh Manis = Rp7.500
+wr23 = Es Jeruk Nipis =Rp10.400
+wr24 = Es Cappucino = Rp9.500
+wr25 = Es Jeruk = Rp13.000
+wr26 = Es Kopi Susu = Rp11.500
+wr27 = Es Soda = Rp13.000
+wr28 = Es Alpukat = Rp9.500
+wr29 = Teh Manis Hangat/Panas = Rp7.500
+wr30 = Jeruk Nipis Hangat/Panas = Rp10.400
+wr31 = Jeruk Hangat/Panas = Rp13.000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
