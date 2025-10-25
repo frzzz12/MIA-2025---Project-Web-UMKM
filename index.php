@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/cards.css">
     <title>Dashboard</title>
 </head>
 <body>
@@ -40,39 +41,39 @@
             <div class="card-body">
                 <h3>Cozy drink</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                <a class="btn" href="cozydrink.html">Kunjungi</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
-            <div class="card-body">
-                <h3>Cozy drink</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                <a class="btn" href="cozydrink.html">Kunjungi</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
-            <div class="card-body">
-                <h3>Cozy drink</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                <a class="btn" href="cozydrink.html">Kunjungi</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
-            <div class="card-body">
-                <h3>Cozy drink</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                <a class="btn" href="cozydrink.html">Kunjungi</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
-            <div class="card-body">
-                <h3>Cozy drink</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 <a class="btn" href="pages/cozydrink.html">Kunjungi</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+            <div class="card-body">
+                <h3>Komau Juice</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a class="btn" href="pages/komau juice.html">Kunjungi</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+            <div class="card-body">
+                <h3>Cozy drink</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a class="btn" href="cozydrink.html">Kunjungi</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+            <div class="card-body">
+                <h3>Cozy drink</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a class="btn" href="cozydrink.html">Kunjungi</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+            <div class="card-body">
+                <h3>Cozy drink</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <!--<a class="btn" href="pages/cozydrink.html">Kunjungi</a> -->
             </div>
         </div>
      </section>

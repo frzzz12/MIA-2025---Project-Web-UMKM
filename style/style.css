@@ -15,10 +15,10 @@
   --card-bg:#0ea5e9; /* tweak as needed */
   --radius:14px;
   --shadow:0 10px 25px rgba(0,0,0,.08);
-
-  --card-min: 260px;
+  --page-gutter: clamp(12px, 4vw, 32px);
+  --card-min: 280px;
   --card-gap: 20px;
-  --thumb-ratio: 16 / 9;
+  --thumb-ratio: 3 / 1;
 }
 
 /* Navbar Start */
@@ -97,71 +97,3 @@
 
 
 /* Content-1 End */
-
-/* ---------- Cards Grid ---------- */
-.container{
-    width:min(900px, 90%);
-    margin-inline:auto;
-}
-
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(var(--card-min), 1fr));
-    gap:var(--card-gap);
-    width: min(1100px, 92%);
-    justify-items: center;
-    margin-inline: auto;
-}
-
-.card{
-    border-radius:var(--radius);
-    overflow:hidden;
-    background:var(--card-bg);
-    color:#fff;
-    box-shadow:var(--shadow);
-}
-.card img{
-    width:100%;
-    aspect-ratio: var(--thumb-ratio);
-    object-fit:cover;
-    object-position: center;
-    border-radius: 8px 8px 0 0;
-    display:block;
-}
-.card-body{
-  display:flex; flex-direction:column; gap:.5rem;
-  padding:16px;
-}
-
-.card .card-body{
-    padding: 14px;
-}
-
-.card h3{
-    font-size:clamp(1rem, 1.8vw, 1.1rem);
-    margin:0 0 .35rem 0;
-}
-.card p{
-    margin:0;
-    opacity:.95;
-    font-size:clamp(.9rem, 1.6vw, .98rem);
-}
-.card .btn{
-    margin-top:.5rem;
-    background:var(--accent-color);
-    border:0;
-    border-radius:10px;
-    padding:.5rem .8rem;
-    font-weight:600;
-    color:#fff;
-    cursor:pointer;
-}
-
-/* ---------- Utilities / Tweaks ---------- */
-@media (max-width: 640px){
-  .nav-links{ display:none; }
-  .card img { height: 120px; }  /* shorter on phones */
-  .card .card-body { padding: 8px 10px; }
-  .card h3 { font-size: .9rem; }
-  .card p { font-size: .85rem; }
-}
