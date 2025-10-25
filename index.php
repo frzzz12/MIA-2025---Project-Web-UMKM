@@ -72,7 +72,8 @@
                         </div>
                         <div class="card">
                             <div>
-                                <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+                                <img src="assets/mocin/m1.jpg
+                                " alt="umkm1">
                             </div>
                             <div>
                                 <a href="">
@@ -120,7 +121,7 @@
                         </div>
                         <div class="card">
                             <div>
-                                <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+                                <img src="assets/oishii banana/o4.jpg" alt="umkm1">
                             </div>
                             <div>
                                 <a href="">
@@ -136,11 +137,11 @@
                         </div>
                         <div class="card">
                             <div>
-                                <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+                                <img src="assets/kebab turkiyem/full sapi original.png" alt="umkm1">
                             </div>
                             <div>
                                 <a href="">
-                                    <h3>Raisha Craft</h3>
+                                    <h3>Kebab Turkiyem</h3>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="card-btn">
@@ -152,7 +153,7 @@
                         </div>
                         <div class="card">
                             <div>
-                                <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+                                <img src="assets/skripsi service/s2.webp" alt="umkm1">
                             </div>
                             <div>
                                 <a href="">
@@ -168,7 +169,7 @@
                         </div>
                         <div class="card">
                             <div>
-                                <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+                                <img src="assets/teras ryker/tr3.png" alt="umkm1">
                             </div>
                             <div>
                                 <a href="">
@@ -184,7 +185,7 @@
                         </div>
                         <div class="card">
                             <div>
-                                <img src="assets/cozy drink/alpokat kocok + ice cream.png" alt="umkm1">
+                                <img src="assets/wr pangkep/wr1.png" alt="umkm1">
                             </div>
                             <div>
                                 <a href="">
