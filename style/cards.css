@@ -6,7 +6,7 @@
   --card-bg:#989898; /* tweak as needed */
   --radius:14px;
   --shadow:0 10px 25px rgba(0,0,0,.08);
-  --page-gutter: clamp(12px, 4vw, 50px);
+  --page-gutter: clamp(20px, 6vw, 72px);
   --card-min: 280px;
   --card-gap: 20px;
   --thumb-ratio: 3 / 1;
@@ -86,7 +86,7 @@
     grid-template-columns:repeat(auto-fit, minmax(var(--card-min), 1fr));
     gap:var(--card-gap);
     width: 100%;
-    justify-items: center;
+    justify-items: stretch;
     margin-inline: auto;
 }
 
@@ -142,5 +142,12 @@
   .card-toko img{
     width: 100%;
     height: auto;
+  }
+}
+
+/* Force 4 cards per row on desktop */
+@media (min-width: 1100px) {
+  .cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
