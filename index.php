@@ -204,5 +204,9 @@
      </section>
     <!-- Content 2 End-->
 
+     <!-- Warung Pangkep RANNU SOP SAUDARA -->
+    <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- Warung Pangkep RANNU SOP SAUDARA -->
+
 </body>
 </html>
